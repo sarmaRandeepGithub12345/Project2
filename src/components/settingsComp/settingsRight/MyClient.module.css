@@ -1,0 +1,62 @@
+.clientCard{
+  background-color: white;
+  margin: 25px 0;
+  width: 40%;
+  padding: 15px 10px;
+  border-radius: 10px;
+  overflow-y: auto;
+}
+.mcText{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+}
+.cccontainer{
+  display: flex; 
+  align-items: center;
+  padding: 15px 60px;
+}
+.cct{
+  padding-left: 25px;
+}
+.cctOne, .cctTwo{
+  margin: 0;
+  padding: 0;
+}
+.cctOne{
+  font-size: 18px;
+  font-weight: 500;
+}
+.imgClass{
+  height: 60px;
+}
+
+@media only screen and (max-width: 768px) {
+  .clientCard {
+    width: 70%;
+    height:85vh;
+    padding-top: 0;
+    margin: 10px 10px;
+  }
+  .mcText{
+  font-size: 5.5vw;
+  }
+
+  .cccontainer {
+    padding: 10px;
+  }
+
+  .cct {
+    padding-left: 0;
+    padding-top: 5px; 
+  }
+  .cctOne, .cctTwo{
+    font-size: 3.5vw;
+  }
+
+  .imgClass{
+    height: auto;
+    max-width: 15vw;
+    padding-right: 10px;
+  }
+}

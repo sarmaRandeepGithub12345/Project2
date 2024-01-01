@@ -1,0 +1,54 @@
+.leftCard{
+  background-color: white;
+  width: 31.5%;
+  margin: 25px 130px;
+  padding: 15px 10px;
+  border-radius: 10px;
+}
+/* button changed to .buttonClass */
+.buttonClass{
+  cursor: pointer;
+  padding: 13px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  border:0 none white;
+  width: 30vw;
+  background-color: white;
+}
+.buttonClass:hover{
+  background-color: rgb(211, 211, 211);
+} 
+.buttonText{
+  padding: 0 20px;
+}
+.buttonTextOne{
+  font-size: 15px;
+  font-weight: 700;
+}
+.btn{
+  color: red;
+  font-size: 15px;
+  font-weight: 500;
+}
+.btn:hover{
+  background-color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .leftCard {
+    width: 20%;
+    margin: 10px 10px;
+    height:85vh;
+  }
+
+  .buttonClass , .btn{
+    width: 15vw;
+    padding: 18px 8px;
+
+  }
+  .buttonText{
+    display:none;
+  }
+}

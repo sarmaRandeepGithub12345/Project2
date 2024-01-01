@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Roboto:wght@100&display=swap"); */
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+.shadowClass {
+  box-shadow: 0 2px 12px 1px rgba(0, 0, 0, 0.2);
+}
+.Team{
+  font-family: 'Otomanopee One', sans-serif;
+
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.CategoryMenu::-webkit-scrollbar {
+  
+  width: 8px;
+  border-radius: 20px;
+  background-color: #f5f5f5; 
+}
+
+.CategoryMenu::-webkit-scrollbar-thumb {
+  background-color: #0261FE; 
+  border-radius: 20px;
+}
+
+.CategoryMenu::-webkit-scrollbar-thumb:hover {
+  background-color: #0261FE;
+  border-radius: 20px;
+}
+
+.CategoryMenu::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+  border-radius: 20px;
+
+}
